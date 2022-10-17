@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #252023;
     color: white;
     font-family: monospace;
 }
@@ -7,13 +7,14 @@ body {
 section {
     background-color: maroon;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-bottom: 5%;
     margin-top: 2%;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 3%;
     padding-top: 1%;
+    border-radius: 5px;
 }
 
 article {
@@ -22,12 +23,14 @@ article {
     margin-bottom: 10%;
     padding-bottom: 2%;
     padding-left: 5px;
+    border-radius: 10px;
 
 }
 
 footer {
     background-color: purple;
     text-align: center;
+    clear: both;
 }
 
 a:link, a:visited {
@@ -39,11 +42,12 @@ article footer {
     font-size: 0.6em;
     background-color: inherit;
     text-align: left;
+    clear: none;
 }
 
 nav {
     text-align: center;
-    background-color: #4e4a4a;
+    background-color: #2f252a;
 }
 
 nav ul li {
@@ -62,3 +66,7 @@ body > header {
 
 }
 
+body > header img {
+    width: 800px;
+    margin: 20px;
+}
